@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="images/favicon.webp" type="x-icon"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="cont-1">
+        <input type="text" placeholder="enter city" spellcheck="false" />
+        <button><i class="fa-solid fa-location-dot img"></i></button>
+      </div>
+      <div class="cont-2">
+        <h2 class="city" style="color: red;"></h2>
+        <h1 class="temp"></h1>
+        <div class="cont-2-1">
+          <img src="images/rain.png" class="logo" />
+          <p class="text"></p>
+        </div>
+      </div>
+      <div class="cont-3">
+        <div class="humidity">
+          <img src="images/humidity.png" />
+          <p class="humid"></p>
+          <p class="h">humidity</p>
+        </div>
+          <div class="min-temp">
+            <p>MIN</p>
+            <h2 class="min-1"></h2>
+          </div>
+          <div class="max-temp">
+            <p>MAX</p>
+            <h2 class="max-1"></h2>
+          </div>
+        <div class="wind-speed">
+          <!-- <img src="images/wind.png" /> -->
+          <i class="fa-solid fa-wind"></i>
+          <p class="winddy"></p>
+          <p class="p">wind speed</p>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
